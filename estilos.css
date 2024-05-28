@@ -1,0 +1,93 @@
+body{
+  background: rgb(233,193,160);
+  background: radial-gradient(circle, rgba(233,193,160,0.7035189075630253) 25%, rgba(188,208,231,0.7035189075630253) 100%);
+  font-family: Outfit,  Helvetica, sans-serif;
+
+*{
+  align-items: center;
+  align-content: center;
+}
+
+    .header-section {
+      background-image: url("img/Tomates\ Horizontal\ portada.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 100px 50px;
+      height: 95px;
+      opacity: 0.8;
+    }
+
+    h1, h2{
+      text-align: center;
+      margin: auto;
+      opacity: 1;
+    } 
+
+    h1{
+      font-family: "Labor Union", serif;
+      font-size: 65px;
+    }
+
+    h2{
+      font-family: "Montserrat Alternates", sans-serif;
+      font-size: 45px;
+      font-weight: 300;
+    }
+
+    h3{
+      margin: 35px;
+      font-family: Fraunces;
+      font-size: 40px;
+      font-weight: 600;
+      font-style: normal;
+      font-variation-settings:
+        "SOFT" 50,
+        "WONK" 0;
+    }
+
+    p{
+      font-size: 30px;
+      margin: 50px;
+      padding: auto;
+    }
+
+    /*welcome text*/
+    .wtext{
+      padding: 15px 20px;
+    }
+
+    .Bienvenida{
+      padding: 45px 20px;
+      .Bienvenida_image {
+        float:left;
+        height: 400px;
+        opacity: 0.8;
+        padding-right: 40px;
+      }
+      .Bienvenida_text {
+        display: inline;
+        padding-left: 20px;
+        width: 400px;
+        margin: auto 10px;
+      }
+    }
+
+    .textimg{
+      text-align: center;
+    }
+
+    .img1, .img2 {
+      width: 500px;
+      padding: 5px;
+      display: inline-flex;
+      border-radius: 5%;
+      opacity: 0.9;
+    }
+    .img3,.img4 {
+      width: 500px;
+      display: inline;
+      padding: 5px;
+      border-radius: 5%;
+      opacity: 0.9;
+    }
+}
